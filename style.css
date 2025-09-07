@@ -93,6 +93,7 @@ h2 > span > span {
 }
 .right-section h1 {
   font-size: 65px;
+  font-family: "vazir";
 }
 #resume-file {
   background-color: darkgray;
@@ -121,7 +122,7 @@ h2 > span > span {
   animation: profile 3s infinite;
 }
 .about-me-section {
-  margin-top: 5%;
+  margin-top: 15%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -156,6 +157,16 @@ h2 > span > span {
   padding: 10px;
 }
 
+.portofilo {
+  background-color: lightblue;
+}
+.html {
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
 @media (max-width: 665px) {
   .hero-section {
     flex-direction: column;
