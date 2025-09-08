@@ -3,82 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amir hossein Nazery</title>
+    <title>Amir hossein nazery</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
-
   <body dir="rtl">
-    <div id="blur"></div>
-    <header>
-      <ul>
-        <img src="logo.png" id="logo" alt="لوگو" width="100" />
-
-        <li><a href="#about">درباره من</a></li>
-        <li><a href="#contact">ارتباط با من</a></li>
-        <li><a href="#portfilio">نمونه کار</a></li>
-      </ul>
-    </header>
-
     <video class="background-video" autoplay muted loop>
       <source src="video.mp4" type="video/mp4" />
     </video>
 
     <div class="overlay"></div>
 
-    <div class="madar">
-      <div class="caption">
+    <header>
+      <div class="header animate__bounceInDown">
+        <div class="logo"><img src="logo.png" width="100px" /></div>
+        <nav>
+          <ul>
+            <li><a href="">درباره من</a></li>
+            <li><a href="">ارتباط با من</a></li>
+            <li><a href=""> نمونه کار</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero-section">
+      <div class="right-section">
         <h1>امیر حسین ناظری</h1>
+
+        <h2>
+          <span>
+            <span>Coder</span>
+            <span>Programer</span>
+            <span>Develpoer</span>
+            <span>Designer</span>
+          </span>
+          I'm a
+        </h2>
+        <button id="resume-file" class="animate__rubberBand">
+          مشاهده رزومه
+          <img src="arrow.svg" />
+        </button>
       </div>
 
-      <div class="profile">
-        <img src="contactPicture.webp" width="350px" />
-      </div>
-    </div>
-    <div class="contaner">
-      <div class="resume-file">
-        <a href="MyResume-Amir-Nazery.pdf" download>
-          نمایش رزومه به صورت آنلاین
-        </a>
-      </div>
-    </div>
-    <h2>درباره من</h2>
-
-    <div class="about-me">
-      <div class="background">
-        <p id="about-me-text">
-          من امیر هستم، دانش‌آموز پایه یازدهم در رشته طراحی صفحات وب. از
-          علاقه‌مندان به دنیای وب و طراحی سایت هستم و در حال حاضر با HTML و CSS
-          پروژه‌های مختلفی طراحی می‌کنم. همچنین با نرم‌افزار فتوشاپ و مهارت‌های
-          ICDL آشنایی دارم. هدفم کسب تجربه‌های بیشتر و ورود حرفه‌ای به بازار کار
-          در حوزه طراحی و توسعه وب است.
-        </p>
-      </div>
-    </div>
-
-    <div class="portfolio">
-      <h2>نمونه کار</h2>
-
-      <div class="boxs">
-        <div class="box1">
-          <h3>Worker site</h3>
-        </div>
-        <div class="box2">
-          <h3>Blog site</h3>
-        </div>
-        <div class="box3">
-          <h3>First site</h3>
+      <div class="left-section">
+        <div class="profile">
+          <img src="contactPicture.webp" width="350px" />
         </div>
       </div>
+      <div class="scroll">
+        <img src="arrow_downward.png" />
+      </div>
     </div>
 
-    <!-- <div class="skills">
-        <h2>مهارت ها</h2>
+    <br />
 
-        <div class="skills-box">
-
-        <div class="skills-navar"></div>
-        
+    <div class="about-me-section">
+      <div class="about-me-box">
+        <h3>درباره من</h3>
+        <div class="inner-box">
+          <h4>
+            من امیر هستم، دانش‌آموز پایه یازدهم در رشته طراحی صفحات وب. از
+            علاقه‌مندان به دنیای وب و طراحی سایت هستم و در حال حاضر با HTML و
+            CSS پروژه‌های مختلفی طراحی می‌کنم. همچنین با نرم‌افزار فتوشاپ و
+            مهارت‌های ICDL آشنایی دارم. هدفم کسب تجربه‌های بیشتر و ورود حرفه‌ای
+            به بازار کار در حوزه طراحی و توسعه وب است. میتونید رزومه منو مشاهده
+            کنید.
+          </h4>
+        </div>
+      </div>
     </div>
-    </div> -->
+    <button id="top-btn">
+      <a href="">
+        <img src="arrow.svg" />
+      </a>
+    </button>
+
+    <div class="portofilo">
+      <h2>مهارت ها</h2>
+      <div class="html">
+        <img src="html.png" width="80px" />
+        <span>Html</span>
+      </div>
+    </div>
   </body>
 </html>
