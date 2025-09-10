@@ -200,11 +200,11 @@ h2 > span > span {
     margin-top: 5%;
   }
   .inner-box {
-    width: 430px;
+    width: 400px;
     font-size: 13px;
   }
 }
-@media (max-width: 444px) {
+@media (max-width: 429px) {
   .header {
     display: flex;
     justify-content: center;
@@ -216,6 +216,9 @@ h2 > span > span {
   .inner-box {
     width: 300px;
     font-size: 12px;
+  }
+  .right-section h1 {
+    margin-top: -40px;
   }
 }
 @media (max-width: 320px) {
