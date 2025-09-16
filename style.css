@@ -199,16 +199,28 @@ h2 > span > span {
   align-items: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.offline-page {
-  background-color: gray;
+.offline-page,
+.loading {
+  background-color: black;
   position: fixed;
   z-index: 10002;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+.offline-page {
   opacity: 0;
+}
+
+.loading {
+  opacity: 1;
 }
 
 @media (max-width: 689px) {
@@ -357,5 +369,29 @@ h2 > span > span {
   }
   100% {
     transform: translateY(-400%);
+  }
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  background: linear-gradient(90deg, #000 50%, #0000 0) right/200% 100%;
+  animation: l21 2s infinite linear;
+}
+.loader::before {
+  content: "...Loading";
+  color: #0000;
+  padding: 0 5px;
+  background: inherit;
+  background-image: linear-gradient(90deg, #fff 50%, #000 0);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes l21 {
+  100% {
+    background-position: left;
   }
 }
