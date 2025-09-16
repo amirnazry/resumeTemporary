@@ -163,7 +163,7 @@ h2 > span > span {
 }
 
 .portofilo {
-  height: 800px;
+  /* height: 800px; */
   position: relative;
   margin: 0 -8px;
   padding-right: 2px;
@@ -267,6 +267,21 @@ h2 > span > span {
   .right-section h1 {
     margin-top: -40px;
   }
+  .container {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .html {
+    width: 150px;
+    font-size: large;
+  }
+  .html img {
+    width: 140px;
+  }
+  .background-video-P {
+    height: 125vh;
+  }
 }
 @media (max-width: 394px) {
   .right-section h1 {
@@ -283,13 +298,13 @@ h2 > span > span {
   }
   .right-section h1 {
     font-size: 30px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
   }
   .scroll {
     right: 44%;
   }
   .about-me-section {
-    margin-top: 10%;
+    margin-top: 20%;
   }
   .inner-box {
     width: 250px;
