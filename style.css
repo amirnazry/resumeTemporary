@@ -216,11 +216,11 @@ h2 > span > span {
   color: white;
 }
 .offline-page {
-  opacity: 0;
+  display: none;
 }
 
 .loading {
-  opacity: 1;
+  display: block;
 }
 
 @media (max-width: 689px) {

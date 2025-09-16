@@ -1,6 +1,6 @@
 window.addEventListener("offline",function(){
-    document.getElementById("offline-page").style.opacity = "1"
+    document.getElementById("offline-page").style.display = "block"
 } )
 window.addEventListener("DOMContentLoaded",function(){
-    document.getElementById("loading").style.opacity = "0"
+    document.getElementById("loading").style.display = "none"
 } )
