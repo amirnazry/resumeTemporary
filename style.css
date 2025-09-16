@@ -199,6 +199,17 @@ h2 > span > span {
   align-items: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.offline-page {
+  background-color: gray;
+  position: fixed;
+  z-index: 10002;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+}
 
 @media (max-width: 689px) {
   .hero-section {
