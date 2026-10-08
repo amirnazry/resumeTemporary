@@ -168,6 +168,9 @@ h2 > span > span {
   margin: 0 -8px;
   padding-right: 2px;
 }
+.portofilo h2{
+  margin: 30px;
+}
 .container {
   display: flex;
   justify-content: space-between;
@@ -225,7 +228,6 @@ h2 > span > span {
   display: block;
 }
 footer{
-  background-color: #00ff;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -239,8 +241,9 @@ footer{
   text-decoration: none;
 }
 .contact{
+  color: white;
   background-color: #222;
-  margin-top: 100px;
+  margin-top: 1.5%;
   width: 100%;
   position: absolute;
   left: 0;
@@ -309,7 +312,7 @@ footer{
     width: 140px;
   }
   .background-video-P {
-    height: 145vh;
+    height: 160vh;
   }
   
 }
