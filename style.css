@@ -314,7 +314,9 @@ footer{
   .background-video-P {
     height: 160vh;
   }
-  
+  footer{
+    margin-top: 110px;
+  }
 }
 @media (max-width: 394px) {
   .right-section h1 {
