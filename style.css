@@ -225,7 +225,7 @@ h2 > span > span {
   display: block;
 }
 footer{
-  /* background-color: #000; */
+  background-color: #00ff;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -238,17 +238,9 @@ footer{
 .contact a{
   text-decoration: none;
 }
-/* footer h2{
-  color: white;
-  position: relative;
-  bottom: 10px;
-  right: -618px;
-  z-index: 1000;
-
-} */
 .contact{
   background-color: #222;
-  margin-top: 30px;
+  margin-top: 100px;
   width: 100%;
   position: absolute;
   left: 0;
@@ -258,6 +250,7 @@ footer{
   .hero-section {
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
   }
   .right-section h1 {
     font-size: 40px;
@@ -267,6 +260,7 @@ footer{
   .profile {
     width: 250px;
     height: 250px;
+    margin-top: 30%;
   }
   .profile img {
     width: 250px;
@@ -275,11 +269,14 @@ footer{
     margin-bottom: 10px;
   }
   .about-me-section {
-    margin-top: 5%;
+    margin-top: 15%;
   }
   .inner-box {
     width: 400px;
     font-size: 13px;
+  }
+  .scroll{
+    margin-top: 200px;
   }
 }
 @media (max-width: 429px) {
@@ -324,6 +321,9 @@ footer{
   
 }
 @media (max-width: 320px) {
+  .hero-section{
+    margin-top: -30px;
+  }
   .header ul {
     display: none;
   }
@@ -345,6 +345,9 @@ footer{
     width: 250px;
     height: 350px;
     font-size: 15px;
+  }
+  .profile{
+    margin-top: 0;
   }
  
 }
